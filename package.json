@@ -1,6 +1,6 @@
 {
   "name": "@gargoylesoft/eslint-plugin-angular",
-  "version": "0.0.0",
+  "version": "0.0.1-beta.1",
   "description": "Rules for newer angular versions.",
   "keywords": [
     "eslint",
@@ -20,6 +20,7 @@
   "devDependencies": {
     "@types/eslint": "^8.37.0",
     "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
     "@typescript-eslint/parser": "^5.57.0",
     "@typescript-eslint/typescript-estree": "^5.57.0",
@@ -33,7 +34,7 @@
     "typescript": "^5.0.3"
   },
   "engines": {
-    "node": "^14.17.0 || ^16.0.0 || >= 18.0.0"
+    "node": ">= 18.0.0"
   },
   "peerDependencies": {
     "@angular/core": ">= 15",
